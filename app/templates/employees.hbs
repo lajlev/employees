@@ -1,0 +1,19 @@
+<h2>New Employee</h2>
+<ul class="new-employee">
+  <li>
+    {{input value=employee.name placeholder="Name"}}
+  </li>
+  <li>
+    {{input value=employee.title placeholder="Title"}}
+  </li>
+  <li>
+    <button {{action "createEmployee"}}>Add Employee</button>
+  </li>
+</ul>
+<!-- 
+<section>
+  {{#each}}
+    <div>{{name}}</div>
+    <div>{{title}}</div>
+  {{/each}}
+</section> -->
